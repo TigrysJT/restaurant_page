@@ -1,0 +1,78 @@
+* {
+    text-align: center;
+    align-items: center;
+}
+#nameOfRest{
+    color: black;
+}
+#bbl{
+    color: black;
+    grid-column: 2;  
+}
+button{
+    border: 0;
+    margin: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+}
+header{
+    margin-top: 20px;
+    margin: auto;
+    width: 65%;
+}
+p{
+width: 50%;
+text-align: center;
+margin: auto;
+margin-top: 15px;
+margin-bottom: 40px;
+border-radius: 5px;
+padding: 10px;
+color: white;
+font-size: larger;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#allContent{
+display: grid;
+grid-template-columns: 200px 600px 1fr ;
+grid-template-rows: 1;
+gap: 100px;
+margin-left: 50px;
+
+}
+#nameOfRest{
+color: white;
+}
+#mainHead{
+margin: 0;    
+width: 90%;
+border: 0;
+margin-bottom: 100px;
+}
+#buttz{
+    position: relative;
+    right: 0;
+    display: flex;
+}
+#header1{
+    color: orange;
+    font-weight: 1000;
+    font-size: 50px;
+    margin-left: auto;
+    width: 450px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#order_button{
+    color: white;
+    background-color: orange;
+    letter-spacing: 1px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+   margin-top: -100px;
+}
+body{
+background-image: url(fracnesinha_image.jpg);
+}
